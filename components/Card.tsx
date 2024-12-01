@@ -17,6 +17,7 @@ interface CardBodyProps {
   title: string;
   text?: string;
 }
+
 export function CardBody(props: CardBodyProps) {
   const { title, text } = props;
   return (
